@@ -1,0 +1,98 @@
+/* body */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(106, 120, 134, 0.4);
+}
+
+/* header */
+
+#header-nav {
+    background-color: darkgray;
+    border-radius: 0;
+    border: 2px black solid;
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+.navbar-brand h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    margin: 0;
+    line-height: 0.5;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+button {
+    background-color: black !important;
+    border: 1px solid white !important;
+}
+
+/* main content*/
+
+#Content1, #Content2, #Content3{
+    background-color: grey;
+    margin: 15px 10% 15px 10%;
+    width: 80%;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+p{
+    padding: 10px;
+}
+
+h2{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* list content */
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2px;
+    margin: 2px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    padding: 0;
+    margin: 0;
+}
+
+ul#nav-list{
+    background-color: grey;
+    margin: 0;
+}
+
+/* media queries */
+
+@media(max-width: 767px){
+    .navbar-toggle {
+        top: -30px;
+    }
+
+    div.navbar-brand{
+        position: relative;
+        top: 15px;
+    }
+}
+
+@media(min-width: 768px){
+    div.container-fluid{
+        height: 70px;
+    }
+}
